@@ -1,15 +1,18 @@
 SPDX-License-Identifier: MIT
 
 To the extent MAMUT-routing holds the relevant rights, the MAMUT-routing
-curation artifacts in this satellite repository (instances in the MAMUT shape,
-arrival-time-function sidecars, best-known solution records, and metadata) are
-distributed under the MIT License below.
+generation and curation artifacts in this satellite repository (instances in
+the MAMUT shape, IGP category sidecars, best-known solution records, and
+metadata) are distributed under the MIT License below.
 
-This satellite family curates third-party benchmark material; see the
-provenance section of README.md. This license notice does not claim to
-relicense the underlying third-party benchmark definitions or third-party
-best-known solution sources beyond the rights held by MAMUT-routing
-contributors.
+This satellite family contains newly generated time-dependent instances,
+following the same MIT-based convention as the Dimacs2021 family: the
+underlying instance definitions are the Gehring & Homberger (1999) VRPTW
+benchmark, and the time-dependent travel-time construction follows the
+published methodology of Ichoua, Gendreau & Potvin (2003) and Dabia et al.
+(2013). See the provenance section of README.md. This license notice does not
+claim to relicense the underlying third-party benchmark definitions or
+published methodologies beyond the rights held by MAMUT-routing contributors.
 
 MIT License
 
