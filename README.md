@@ -35,3 +35,9 @@ Population pipeline: `populate_td_lera2026` v1 (curation tooling maintained outs
 ## Provenance and licensing
 
 Underlying data: Gehring & Homberger (1999) VRPTW instances (as curated in MAMUT-routing `Sintef2008`); time-dependent model: Ichoua, Gendreau, Potvin (2003), EJOR 144(2), 379–396; period skeleton: Dabia et al. (2013). MAMUT-authored curation artifacts under the MIT license; this notice does not relicense the underlying third-party benchmark definitions.
+
+## Citation and benchmark authorship
+
+The authors, in citation order, are Adrien Pichon, Florian Rascoussier, Romain Billot, Lina Fahed, Alexandru-Liviu Olteanu, Marc Sevaux and Christine Solnon. The 2 lead authors are ordered alphabetically by surname, followed by the scientific supervisors in alphabetical order. Their ORCID identifiers are recorded in [CITATION.cff](CITATION.cff).
+
+The listed authors propose Lera2026 as a generated TDVRPTW benchmark. Their contribution comprises the construction of time-dependent instances from the Gehring and Homberger bases, seeded arc-category assignments, the selection of congestion scenarios and the deterministic feasibility-repair procedure. This repository publishes the resulting instances with time windows and their validated reference solutions. Cite this repository for that benchmark contribution, Gehring and Homberger (1999) for the underlying VRPTW data, Ichoua, Gendreau and Potvin (2003) for the speed model, and Dabia et al. (2013) for the five-period structure. The honorific family name does not attribute its construction to Gonzalo Lera-Romero. Individual solution-contributor credits are recorded with the solutions. Record the exact Git commit used in experiments.

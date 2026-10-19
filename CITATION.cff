@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: MAMUT-routing-TDVRPTW-Lera2026
+type: dataset
+message: >-
+  Cite this metadata for the design and generation of the Lera2026 TDVRPTW benchmark. Also cite Gehring and Homberger for the base instances, Ichoua, Gendreau and Potvin for the travel-speed model, and Dabia et al. for the period structure. Record the exact Git commit used.
+authors:
+  - given-names: Adrien
+    family-names: Pichon
+    alias: Anzury
+    affiliation: Université Bretagne Sud
+    orcid: "https://orcid.org/0009-0005-8630-3962"
+  - given-names: Florian
+    family-names: Rascoussier
+    alias: Onyr
+    affiliation: IMT Atlantique; INSA Lyon
+    orcid: "https://orcid.org/0009-0005-3253-9814"
+  - given-names: Romain
+    family-names: Billot
+    affiliation: IMT Atlantique; Lab-STICC
+    orcid: "https://orcid.org/0000-0002-2614-3822"
+  - given-names: Lina
+    family-names: Fahed
+    affiliation: IMT Atlantique; Lab-STICC
+    orcid: "https://orcid.org/0000-0002-7207-0580"
+  - given-names: Alexandru-Liviu
+    family-names: Olteanu
+    affiliation: Université Bretagne Sud; Lab-STICC
+    orcid: "https://orcid.org/0000-0002-0715-2168"
+  - given-names: Marc
+    family-names: Sevaux
+    affiliation: Université Bretagne Sud; Lab-STICC
+    orcid: "https://orcid.org/0000-0003-3855-9072"
+  - given-names: Christine
+    family-names: Solnon
+    affiliation: INSA Lyon; Inria; CITI
+    orcid: "https://orcid.org/0000-0002-0919-496X"
+repository-code: "https://github.com/ANR-MAMUT/MAMUT-routing-TDVRPTW-Lera2026"
+url: "https://github.com/ANR-MAMUT/MAMUT-routing-TDVRPTW-Lera2026"
+abstract: >-
+  Lera2026 is a TDVRPTW benchmark proposed by the listed authors, extending Gehring and Homberger instances to time-dependent routing at 200 to 1000 customers. The construction combines IGP speed profiles with a five-period structure, seeded arc-category assignments and controlled congestion scenarios. Deterministic time-window repair ensures singleton feasibility while retaining the original travel-speed periods. The family is named in honour of Gonzalo Lera-Romero. Its underlying instance data and model components retain the source attributions documented in README.md.
